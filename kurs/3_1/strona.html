@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> Nagłówek</title>
+        <link rel="stylesheet" href="css/styl.css">
+
+    </head>
+    <body>
+
+
+        <h1>Nasza oferta</h1>
+        <script>
+            document.write ( " <h2> Witaj Janusz </h2> ");
+            //dokument - obiekt
+            // . - oprrator elemrntu składowego
+            // write ( " <h2> Witaj Janusz </h2> ") - metoda / funkcja
+            // " <h2> Witaj Janusz </h2> " - parametr , funkcja / metoda może mieć kilka parametrów wypisanych po , lub nie mieć ich wcale.
+
+            //if - warunek
+
+
+
+
+        </script>
+
+        <h1>systemy liczbowe</h1>
+
+        <div id="wynik">wynik</div>
+
+        <div id ="a"></div>
+        <div id = "b"></div>
+        <div id = "c"></div>
+
+        <script>
+            /* var dziesietna = 15; // liczba w sustemie dziesiętnym
+            var oktalna = 017;
+            var hex = 0xA2; // zapis liczny heksadecymalnej
+            document.write (oktalna); // wyszło 15
+            document.write (hex = "<br>");// 162
+
+            //Zadanie 1
+            /*użytkownik podaje liczbę szesnastkową z klawiatury, zamień ją i wyświetl jako dziesiętną.
+            */
+
+            /* var liczba = prompt("Podaj liczbę w systemie szesnastkowym");
+            document.write ( "liczba w systemie szesnastkowym wynosi: " + liczba);
+            var x = "0x" + liczba;
+            console.log (typeof (x));//
+            x = parseInt(x);
+            document.write ("W systemie dziesiętnym wynosi: " + x + "<br>");
+
+            //sub - index dolny
+            //sup - index dolny
+
+            document.write ("(" + liczba + ")" + "<sub> 16 </sub> = " + "(" + x + ")" + "<sub> 10</sub> <br><br> "); */
+             //document.write ( "y = x <sup>2</sup> - 4ac <br>");
+
+            //zadanie 2
+
+                /*użytkownik podaje z klawiatury podstawę i wysokość trójkąta,
+                oblicz i wyświetl ile wynosi pole. */
+           /* var blok = document.getElementById("wynik");
+            blok.style.color = "green";
+            var a = prompt ("Podaj długość podstawy trójkąta");
+            var h = prompt ( "Podaj wysokość trójkąta ");
+            var pole = (a * h)/2;
+            document.write ("Pole trójkąta wynosi: " + pole + "cm<sup>2</sup><br>"); */
+
+
+            //blok.textContent = "Pole trójkąta wynosi :" + pole + "cm<sup>2</sup>"; -wyświetli Pole trójkąta wynosi :25cm<sup>2</sup>
+
+           // blok.innerHTML = "Pole trójkąta wynosi :" + pole + "cm<sup>2</sup>";
+
+            //zadanie 3
+
+            //Użytkownik podaje z kalwiatury swój wiek (Janusz)
+            //Użytkownik podaje z kalwiatury swój wiek (Agata)
+            //oblicz średni wiek , wyświetl wynik w formacie: "Średni wiek wynosi: " <wiek> "lat".
+            //<> w nawiasach kwadratowych jest wynik działania.
+            //Średni wiek wyświetl w kolorze czerwonym, a pozostałe dane w kolorze #FF07D2
+
+           /* var janusz = prompt ("Janusz podaj swój wiek:");
+            var agata = prompt ("Agata podaj swój wiek:");
+            agata = parseFloat(agata);
+            janusz = parseFloat(janusz);
+            var srednia = (janusz + agata) / 2;
+
+            a =document.getElementById ("a");
+            b =document.getElementById ("b");
+            c =document.getElementById ("c");
+
+            a.style.color = "#FF07D2";
+            b.style.color = "red";
+            c.style.color = "#FF07D2";
+
+            a.innerHTML = "Średni wiek wynosi: ";
+            b.innerHTML = srednia;
+            c.innerHTML = "lat."; */
+
+            //konkatenacja w js to "+"
+            //konkatenacja w php to "."
+
+            var x = prompt ("podaj x");//2
+            var y = prompt ("podaj y");//3
+            x = parseFloat (x);
+            y = parseFloat (y);
+
+            var z = x + y;
+           // console.log (z);//23
+
+
+            console.log (z);
+
+
+
+        </script>
+
+
+    </body>
