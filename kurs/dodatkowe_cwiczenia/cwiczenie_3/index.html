@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> działania </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id = "odp1"> Wynik wynosi:  </div>
+        <div id = "odp2"></div>
+        < div id = "clear"></div>
+
+        <script>
+
+            var x = NaN;
+            while (isNaN(x)){
+                x = prompt ("Podaj x: ")
+                x = parseFloat(x)
+                if (isNaN(x)){
+                    alert ("Podano nieprawidłowe dane.")
+                }
+            }
+               var y = NaN;
+            while (isNaN(y)){
+                y = prompt ("Podaj y: ")
+                y = parseFloat(y)
+                if (isNaN(y)){
+                    alert ("Podano nieprawidłowe dane.")
+                }
+            }
+
+            var operator = prompt ("Podaj działanie:");
+
+            if (operator === "+"){
+               document.getElementById("odp2").innerHTML = x + y;
+            }
+            else if (operator === "-"){
+                document.getElementById("odp2").innerHTML = x - y;
+            }
+            else if (operator === "*"){
+                document.getElementById("odp2").innerHTML = x * y;
+            }
+            else if (operator === "/"){
+                document.getElementById("odp2").innerHTML = (x / y);
+            }
+
+
+        </script>
+
+    </body>
+
+</html>

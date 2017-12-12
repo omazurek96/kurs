@@ -1,0 +1,16 @@
+#odp1
+{
+    color:blue;
+    float: left;
+}
+
+#odp2
+{
+    color: red;
+    float: left;
+}
+
+#clear
+{
+    clear: both;
+}
