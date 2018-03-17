@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> Pole i obwód koła </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id = "odp1"></div>
+        <div id = "odp2"></div>
+
+        <script>
+
+            var r = prompt ("Podaj promień koła: ");
+            //obwód 2 * 3,14 * r
+            var obwod = 2 * 3.14 * r;
+            document.getElementById("odp1").innerHTML = "Obwód koła wynosi: " + obwod;
+
+            //pole 3,14 * r * r
+
+            var pole = r * r * 3.14;
+            document.getElementById("odp2").innerHTML = "Pole koła wynosi: " + pole;
+
+        </script>
+
+    </body>
+
+</html>

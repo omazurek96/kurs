@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> Zajęcia</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id = "top" ></div>
+        <div id = "mid" ></div>
+        <div id = "botom" ></div>
+
+
+        <script>
+
+            var x = NaN;
+            while ( isNaN (x)) {
+                x = prompt ("Podaj dłuższy bok prostokąta: ");
+                x = parseFloat (x);
+                if (isNaN(x)) {
+                    alert ("Podano niewłaściwe dane!");
+                }
+            }
+            document.getElementById("top").innerHTML = "Dłuższy bok wynosi: " + x + " cm";
+            var y = NaN;
+            while (isNaN (y)) {
+                y = prompt ("Podaj krótszy bok prostokąta: ");
+                y = parseFloat (y);
+                if (isNaN(y)) {
+                    alert ("Podano niewłaściwe dane!");
+                }
+            }
+            document.getElementById("mid").innerHTML = "Krótszy bok wynosi: " + y + " cm";
+
+            var pole = x*y;
+
+            document.getElementById("botom").innerHTML = "Pole wynosi prostpkąta: " + pole + " cm <sup>2</sup>";
+
+        </script>
+
+
+
+
+    </body>
