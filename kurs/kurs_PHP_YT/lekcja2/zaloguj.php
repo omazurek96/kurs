@@ -9,7 +9,7 @@
     $login = $_POST['login'];
     $haslo = $_POST['haslo'];
 
-    
+
 ?>
 </body>
 </html>

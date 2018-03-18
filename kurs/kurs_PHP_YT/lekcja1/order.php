@@ -8,7 +8,7 @@
    
 <?php
   
-    $paczkow = $_POST['paczkow'];
+    $poaczkow = $_POST['paczkow'];
     $grzebieni = $_POST['grzebieni'];
     $suma = 0.99*$paczkow + 1.29*$grzebieni;
     
