@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d193c35b-7751-4570-9f91-7ffae0f70292" name="Default" comment="25.03.18">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/connect.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/gra.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/logout.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/witamy.php" />
+    <list default="true" id="d193c35b-7751-4570-9f91-7ffae0f70292" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/index.php" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/index.php" />
-      <change beforePath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/rejestracja.php" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/rejestracja.php" />
-      <change beforePath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/zaloguj.php" afterPath="$PROJECT_DIR$/kurs/kurs_PHP_YT/lekcja2/zaloguj.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -165,7 +157,7 @@
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs\" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -266,7 +258,7 @@
       <workItem from="1521315529986" duration="2818000" />
       <workItem from="1521356788226" duration="903000" />
       <workItem from="1521380819988" duration="3587000" />
-      <workItem from="1521658381358" duration="36181000" />
+      <workItem from="1521658381358" duration="36203000" />
     </task>
     <task id="LOCAL-00001" summary="Nowe zadanie">
       <created>1521318542517</created>
@@ -282,14 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521882502444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="25.03.18">
+      <created>1521998621596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521998621596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43489000" />
+    <option name="totallyTimeSpent" value="43511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
