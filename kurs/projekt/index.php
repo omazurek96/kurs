@@ -5,9 +5,12 @@
     <title>Szkoła</title>
 </head>
 <body>
-   <?php
-        echo "test";
-    ?>
+  <h2>Logowanie</h2>
+   <form action="sprawdz.php" method="post">
+       <input type="text" name="login"><br><br>
+       <input type="password" name="haslo"><br><br>
+       <input type="submit" name="przycisk">
+   </form>
 
 </body>
 </html>
